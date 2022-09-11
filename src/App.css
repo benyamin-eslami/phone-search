@@ -1,0 +1,28 @@
+.container {
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.right {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  margin: 3rem 0;
+}
+
+.left {
+  width: 30%;
+}
+
+.posts {
+  margin: 3rem 0;
+  height: 30rem;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+  border: 1px solid blue;
+  padding: 0.2rem;
+}

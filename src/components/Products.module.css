@@ -1,0 +1,7 @@
+.cardContainer {
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+  margin: 0 5rem;
+  height: 20rem;
+}
